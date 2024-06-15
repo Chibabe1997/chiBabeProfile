@@ -1,0 +1,192 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.top-container{
+    width: 100%;
+    height: 70vh;
+    background: url(./Assets/images/pexels-pixabay-355887.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.title-text h1 {
+    color: rgb(94, 196, 230);
+    font-family: "Briem Hand", cursive;
+    font-size: 80px;
+    margin: 0;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.title-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title-text h2{
+    color: rgb(94, 196, 230);
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    margin-top: 40px;
+    padding: 10px;
+    font-weight: normal;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(233, 241, 244);;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    margin-left: 20px;
+}
+
+.profile h2{
+    font-size: 35px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    padding-bottom: 8px;
+    margin-right: 30px;
+    margin-top: 0;
+    color: rgb(94, 196, 230);
+}
+
+.intro{
+    margin: auto;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 2;
+    display: block;
+    font-size: 18px;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.parent-2 {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+
+.parent-2 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.skills h2{
+    font-size: 45px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    padding-bottom: 8px;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+.skills h3{
+    font-size: 25px;
+    margin: 0;
+    color: rgb(94, 196, 230);
+}
+
+.skills h2{
+    color: rgb(94, 196, 230);
+}
+
+.contact-me{
+    text-align: center;
+}
+
+.btn {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    background-color: rgb(94, 196, 230);
+    padding: 10px 20px 10px 20px;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: lightblue;
+}
+
+.bottom-container{
+    height: 50vh;
+    margin: 100px 0;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    background-color: rgb(94, 196, 230);;
+    margin-bottom: 0;
+}
+
+.copyright {
+    align-self: last baseline;
+    text-align: center;
+}
+
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 20px; 
+}
+
+.footer-link{
+    text-decoration: none;
+    color: rgb(7, 117, 153);
+}
+
+.footer-link:hover{
+    color: #fff;
+}
+
+.copyright{
+    color: #fff;
+}
+
+hr {
+    border: dotted  rgb(145, 197, 215) 6px;
+    width: 3%;
+    border-bottom: none;
+    margin: 100px auto;
+    
+}
+
+
+
